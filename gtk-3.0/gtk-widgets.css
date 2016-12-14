@@ -462,6 +462,9 @@ GtkCalendar.highlight {
 /******************
  * combobox entry *
  ******************/
+ GtkComboBox > .the-button-in-the-combobox {
+    padding: 2px 5px;
+ }
 .primary-toolbar GtkComboBox.combobox-entry .entry,
 .primary-toolbar GtkComboBox.combobox-entry .entry:active,
 .primary-toolbar GtkComboBox.combobox-entry .entry:focus,
