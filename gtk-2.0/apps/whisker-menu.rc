@@ -1,0 +1,28 @@
+style "darkback"
+{
+	bg[NORMAL] = "#404040"
+	bg[ACTIVE] = "#606060"
+	bg[PRELIGHT] = "#808080"
+	fg[NORMAL] = "#ccc"
+	fg[ACTIVE] = "#fff"
+	fg[PRELIGHT] = "#fff"
+}
+widget "whiskermenu-window*" style "darkback"
+
+style "darkentry"
+{
+	base[NORMAL] = "#d8d8d8"
+	base[ACTIVE] = "#d8d8d8"
+	text[NORMAL] = "#333"
+	text[ACTIVE] = "#333"
+}
+widget "whiskermenu-window*GtkEntry*" style "darkentry"
+
+style "darktree"
+{
+	base[NORMAL] = "#404040"
+	base[ACTIVE] = "#606060"
+	text[NORMAL] = "#ccc"
+	text[ACTIVE] = "#fff"
+}
+widget "whiskermenu-window*TreeView*" style "darktree"
